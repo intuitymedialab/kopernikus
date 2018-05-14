@@ -23,7 +23,9 @@ The Arduino is used for everything hardware related. This includes:
 We rely on some libraries that you will need to install prior to flashing the Arduino:
 * ServoTimer2
 * CommandHandler
+-> 
 * EnableInterrupt
+-> [GitHub Repo](https://github.com/GreyGnome/EnableInterrupt)
 * AltSoftSerial
 
 They are all available through the Libary Manager included in the Arduino IDE.
@@ -75,3 +77,4 @@ The main software responsible for decision making is written in Clojure. Head ov
 #### Camera
 
 The camera supports ROS as the main interface. Therefore we use ROS to connect the camera to Clojure. It would be possible also to run the serial connection to the base over ROS, but since ROS is such a pain, it seems better to use it only when necessary.
+

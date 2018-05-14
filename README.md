@@ -101,3 +101,8 @@ You are not legally bound to it, but it would be nice if you credit this project
 
 If you should encounter any bugs or problems with the current build, open an issue here on Github.
 
+## ❤️ Thank you 
+
+Just some acknowledgements to some people that (unknowingly) helped make this possible:
+
+[Ryan Boland](https://ryanboland.com/blog) who had a great [tutorial](https://ryanboland.com/blog/reading-rc-receiver-values/) online on how to use interrupts to read PWM-signals (insted of using the **blocking** pulseIn()-method).
