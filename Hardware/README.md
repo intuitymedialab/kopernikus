@@ -6,9 +6,10 @@ Developed at Intuity Media Lab GmbH in Stuttgart, Germany.
 
 ## Overview
 
-Let's divide this up into two parts
-1) Assembly
-2) Connecting everything
+Let's divide this up into ~~two~~ three parts:
+1) Parts list
+2) Assembly
+3) Connecting everything
 
 ## 🛠 Fabrication
 
@@ -18,6 +19,8 @@ As mentioned before, all parts can be either 3D-printed or produced on a laser c
 
 The parts were printed on an Ultimaker 3 in our office, but any FDM printer should produce similar results.
 The models were created for printing them directly onto the build plate with as little support as possible to create one even reference surface.
+The layer height was 0.1mm on finer objects and 0.3mm on the rough stuff.
+
 
 ### Machined parts
 
@@ -45,6 +48,16 @@ At some point this problem somehow vanished, but one pissible solution would be 
 
 We still need to check what value would be a good match though. Open to suggestions.
 
+#### Basic power scheme
+
+We created to independent circuits so you can control which devices are powered to save some battery life.
+
+1) Arduino, RC receiver, motors, servo
+2) UpBoard and its peripherals (like the 3D camera, microphones etc.)
+
+Ready-made devices like the speaker, the projector etc. get their juice directly from the USB and all have a power switch themselves.
+
+
 #### Powering the UpBoard
 
 The UpBoard uses a simple DC jack, but **behold**!
@@ -55,5 +68,12 @@ Usually these are used for 9V and 12V which **you should never at any time** fee
 *I managed to fry one of our boards by accidentally giving it 12V from our lab bench power supply...not good, believe me.*
 
 Eventhough the powerbank has a 5V output, it can't deliver enough current for the UpBoard to boot properly. Thus we used a cheap step down buck converter, capable of delivering up to 12 A (not the small LM2596 ones), set to 5V.
-A capacitor across the 5V and GND rails was meant to dampen voltages spikes even further - not sure if it's necessary after all.
+
+We also added a decoupling capacitor across the 5V and GND rails on the board - not sure if it's necessary after all.
+
+#### Powering the motors
+
+This is pretty straight-forward: The motor drivers need 12V to work, so you can just connect them directly to the battery pack.
+
+#### Powering the Arduino (and peripherals)
 

@@ -4,7 +4,10 @@
 
 Developed at Intuity Media Lab GmbH in Stuttgart, Germany.
 
-## 🔬 What this is about / the idea behind it
+![Kopernikus Total](http://aaiirr.net/content/projects/kopernikuswide.jpg "Kopernikus Total")
+
+
+## 🔬 What this is about
 
 Robots will become an integral part of our daily lives. Artificial Intelligence changes the way we interact with technology fundamentally and what once used to be a tool sonn will become a companion. As a transdisciplinary team, equipped with diverse expertise, we we realized that only practical experiments will help us gain true insights. We’ve learned that we need to build tools for each other, to make one benefit from another’s skill.
 
@@ -38,10 +41,11 @@ For example we implemented a radio control so we could drive around with the rob
 
 Fully loaded, DYLAN offers the following hardware capabilities:
 
-* 3D Imaging
-* Mobile Projection Mapping
-* 3 channel sound input (good for locating sound sources)
-* Sound output
+* 3D imaging
+* mobile projection mapping (up to a certain extent)
+* 3 channel audio input (good for locating sound sources)
+* audio playback
+* mobile, untethered use for about an hour(...ish - depends on your use)
 
 ## 🎒 What you will need
 
@@ -49,43 +53,27 @@ Fully loaded, DYLAN offers the following hardware capabilities:
 
 All of the components can be bought online on Amazon, eBay, Banggood, Mouser etc. - prices might vary.
 
+This is just a rough rundown of what key components were used so you get the idea. Check out the [parts list](Hardware/partsList.md) for a more detailled list with links.
 
-### Main components
 
 #### 💻 Computing
-
-* UpBoard 2 GB / 16 GB (x86 Chipset, Main Controller)
-* UpBoard WiFi Dongle
+* UpBoard
+* Arduino Uno
 
 #### 👀 Input
-* RealSense R200 (3D Camera)
-* 3 x Mini USB Microphone
-* FS-IA6 (Remote Control)
+* RealSense R200
+* USB Microphones
+* RC Receiver
 
 #### 🐸 Output
-* Anker Soundcore Mini (though any portable 'boom box' should do)
-* CSL External Soundcard (compact and compatible)
-* PicoPro Projector (sadly it has been discontinued, can still be bought used for quite cheap compared to its original price - any suggestions for a successor?)
-
-#### 🏃 Motion
-* Arduino Uno R3
-* Robot Electronics RD02 (12V Robot Drive System)
-* HD1810MG (Servo Motor)
-* Inline Skate wheels
+* RD02 Robotic Drive System
+* Servo Motor
+* Anker Soundcore
+* USB soundcard
+* PicoPro Projector
 
 #### ⚡️ Power
-* XT Power 16000 mAh Powerbank incl. Charger
-* Step Down Module (12 A) 
-* LM2596 Step Down Module (1 A)
-
-#### ⚙️ Other
-* 3 x USB extension cable (about 0,5 m should be enough)
-* 3 x micro USB Cables
-* HDMI Ribbon Cable (Mainly used in FPV applications)
-* micro-USB 3.0 to Micro-USB 3.0 cable (might be a little hard to find)
-* some 12 AWG wire
-* some jumper wires and pin headers
-* 2 x switch
+* Laptop Powerbank
 
 ### Custom Parts
 
@@ -97,12 +85,12 @@ The shielding for the projector out of acrylic glass is optional - its mainly me
 
 ## Getting started
 
-For getting started head over to the specific readmes on **Software** and **Hardware**.
+For getting started head over to the specific readmes on [Software](Software/README.md) and [Hardware](Hardware/README.md).
 
 ## License
 
 This project is released under the MIT License - you are free to do whatever you want with it - as long as you don't plan on subdueing humanity or any other crazy stuff, we're fine with it.
 
-You are not legally bound to it, but feel it would be nice if you credit this project when creating something with it - and please **tell us**! We would love to see what you create!
+You are not legally bound to it, but it would be nice if you credit this project when creating something with it - and please **tell us**! We would love to see what you create!
 
 If you should encounter any bugs or problems with the current build, open an issue here on Github.

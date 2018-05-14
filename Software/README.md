@@ -58,11 +58,13 @@ Also make sure you [install the kernel updates](https://wiki.up-community.org/Ub
 
 These packages can be install via APT using the following commands:
 
-    sudo apt-get install "package name"
-    
-    so something like this:
+```
+sudo apt-get install "package name"
 
-    sudo apt-get install git
+// so something like this:
+
+sudo apt-get install git
+```
 * git, gitk, git-gui (Git)
 * mplayer (Media Player)
 * audacity (Audacity for recording sound)
