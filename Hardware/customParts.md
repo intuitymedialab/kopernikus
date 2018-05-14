@@ -23,7 +23,10 @@
 | 1 | RealSense Mount Right | 170920_realsensemount_right.stl |
 | 2 | RealSense Mounting Bracket | 170920_realsensemount_bracket.stl |
 
-| Command | Description |
-| --- | --- |
+| Parts count | Name | filename |
+| --- | --- | --- |
+| 2 | Wheel Mount | 170920_motorwheel.stl |
+| 2 | Omni Wheel Mount | 170920_omniwheel.stl |
+| 2 | Controller Plate Mount | 170920_controllerplatemount.stl |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
