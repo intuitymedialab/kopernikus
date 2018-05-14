@@ -89,7 +89,7 @@ For getting started head over to the specific readmes on [Software](Software/REA
 
 ## TODO
 
-* [ ] Prepare 3D files for milling
+* [x] Prepare 3D files for milling
 * [ ] Create schematic
 * [x] Create 3D files for milling
 

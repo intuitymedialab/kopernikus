@@ -2,5 +2,5 @@
 
 All the parts were created with **Rhino 5**.
 
----> [DOWNLOAD](kopernikus_3dm.zip) <---
+---> [DOWNLOAD](kopernikus_3dm.zip?raw=true) <---
 
