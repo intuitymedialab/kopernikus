@@ -1,9 +1,7 @@
 # Custom Parts
 
-
-
-| parts count | Name | Filename |
-| --- | --- | --- |
+| parts count | name | filename |
+| --- | --- | --- |
 | 2 | Wheel Mount | 170920_motorwheel.stl |
 | 2 | Omni Wheel Mount | 170920_omniwheel.stl |
 | 2 | Controller Plate Mount | 170920_controllerplatemount.stl |
@@ -22,4 +20,3 @@
 | 1 | RealSense Mount Left | 170920_realsensemount_left.stl |
 | 1 | RealSense Mount Right | 170920_realsensemount_right.stl |
 | 2 | RealSense Mounting Bracket | 170920_realsensemount_bracket.stl |
-
