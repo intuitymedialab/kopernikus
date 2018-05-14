@@ -23,3 +23,7 @@
 | 1 | RealSense Mount Right | 170920_realsensemount_right.stl |
 | 2 | RealSense Mounting Bracket | 170920_realsensemount_bracket.stl |
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
