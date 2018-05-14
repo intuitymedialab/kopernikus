@@ -77,15 +77,21 @@ This is just a rough rundown of what key components were used so you get the ide
 
 ### Custom Parts
 
-In order to get everything together we went with a round base plate (in size similar to vacuum cleaning robots) with some mounting holes in a grid and 3D printed parts made from PLA on an Ultimaker (which means, you can basically print them on any basic FDM printer).
+In order to hold everything together we went with a round base plate (in size similar to vacuum cleaning robots) with some mounting holes in a grid and 3D printed parts made from PLA. We used an Ultimaker 3 - which means, you can basically print them on any basic FDM printer.
 
-Both part groups were designed with quite broad tolerances so you shouldn't have that big of a problem to make it all fit together nicely.
+Most parts were designed with quite broad tolerances so you shouldn't have that big of a problem to make it all fit together nicely.
 
-The shielding for the projector out of acrylic glass is optional - its mainly meant to protect the projector from dust and physical damage. We will upload a 3D file without the mounts for it later.
+The shielding for the projector out of acrylic glass is optional - its mainly meant to protect the projector from dust and physical damage (and because we liked the look to be honest 😎). We will upload a 3D file without the mounts for it later.
 
 ## Getting started
 
 For getting started head over to the specific readmes on [Software](Software/README.md) and [Hardware](Hardware/README.md).
+
+## TODO
+
+* [ ] Prepare 3D files for milling
+* [ ] Create schematic
+* [x] Create 3D files for milling
 
 ## License
 
@@ -94,3 +100,4 @@ This project is released under the MIT License - you are free to do whatever you
 You are not legally bound to it, but it would be nice if you credit this project when creating something with it - and please **tell us**! We would love to see what you create!
 
 If you should encounter any bugs or problems with the current build, open an issue here on Github.
+

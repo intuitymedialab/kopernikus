@@ -1,5 +1,17 @@
 # Custom Parts
 
+The 3D models were created with [Rhino 3D](https://www.rhino3d.com) - a commercial NURBS modelling software.
+
+We uploaded both the NURBS and mesh-based models of Kopernikus, so you will be able to work with it.
+
+## Download
+
+-> NURBS (3dm format, zipped)
+
+-> MESH (stl format, zipped)
+
+## 3D Printing | Individual components
+
 | parts count | name | filename |
 | --- | --- | --- |
 | 2 | Wheel Mount | 170920_motorwheel.stl |
@@ -20,3 +32,11 @@
 | 1 | RealSense Mount Left | 170920_realsensemount_left.stl |
 | 1 | RealSense Mount Right | 170920_realsensemount_right.stl |
 | 2 | RealSense Mounting Bracket | 170920_realsensemount_bracket.stl |
+
+## Milling / Laser cutting | Individual components
+
+| parts count | name | filename |
+| --- | --- | --- |
+| 1 | base plate | xxx.stl |
+| 1 | controller plate | xxx.stl |
+| 2 | projector cover | xxx.stl |
