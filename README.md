@@ -20,7 +20,7 @@ You'll be able to use it as a basic setup and build your personal project on top
 
 The vision of home robotics is ubiquitous. As a transdisciplinary team of designers, technologists and researchers, we were looking for a way to prototype the concepts we've been working on.
 
-The question becomes: how do you design AI? How can we build behavioural interfaces?
+The question becomes: how do you design AI? How can we build behavioural interfaces? One common example is robot navigation.
 
 We want future robots to navigate through our apartments savely, in a manner that is understandable and predictable for humans. We want them to deal gracefully with unexpected obstacles and be efficient and save. 
 
