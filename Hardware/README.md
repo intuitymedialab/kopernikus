@@ -35,7 +35,21 @@ Using acrylic glass instead of PVC shouldn't be a problem either, we just had it
 
 ## 🔌 Connect all the things!
 
-We will upload a detailled scheme on how everything is connected soon...
+Refer to [this](components/basic_electronic_connections.pdf) plan on how to connect everything. Fitting all wires into the plan would probably have been to big and unnecessary - it's actually quite simple.
+
+The pin mappings on the Arduino are:
+
+```
+Pin mappings Arduino:
+
+RC_CH1_INPUT     - >    5
+RC_CH2_INPUT     - >    6
+RC_CH3_INPUT     - >    7
+RC_CH4_INPUT     - >    4 
+SERVO PIN        - >   11
+RX               - >   10
+TX               - >    9
+```
 
 ### Power
 
@@ -44,7 +58,7 @@ Basically everything runs off a notebook powerbank that has all the charging and
 The battery pack can deliver up to 50W peak which is more than enough for our use. One issue we had from time to time though was that the battery pack has a protection built in that shuts off the power when too little current is drawn. This totally makes sense when using it for its intended purpose (which we obviously don't).
 
 #### Adding a power resistor
-At some point this problem somehow vanished, but one pissible solution would be adding a **power resistor** that draws a fixed base current and thus circumvents the automatic shutdown. It also increases the power draw in general, but it's probably the simplest solution.
+At some point this problem somehow vanished, but one possible solution would be adding a **power resistor** that draws a fixed base current and thus circumvents the automatic shutdown. It also increases the power draw in general, but it's probably the simplest solution.
 
 We still need to check what value would be a good match though. Open to suggestions.
 
@@ -65,7 +79,7 @@ Usually these are used for 9V and 12V which **you should never at any time** fee
 
 **! The UpBoard takes 5V MAXIMUM !**
 
-*I managed to fry one of our boards by accidentally giving it 12V from our lab bench power supply...not good, believe me.*
+*I managed to fry one of our boards by accidentally giving it 12V from our lab bench power supply...oops, not good, believe me.*
 
 Eventhough the powerbank has a 5V output, it can't deliver enough current for the UpBoard to boot properly. Thus we used a cheap step down buck converter, capable of delivering up to 12 A (not the small LM2596 ones), set to 5V.
 

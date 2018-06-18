@@ -42,7 +42,7 @@ Fully loaded, Kopernikus offers the following hardware capabilities:
 
 ## 🎒 What you will need
 
-**Quick disclaimer:** *One of our main goals was to build Kopernikus as both low-budget and easy-to-use as possible. At some points compromises had to be made in order to a) stay in a reasonable budget or b) make it easy to assemble and use. We are open to suggestions in any way!*
+**Quick disclaimer:** *One of our main goals was to build Kopernikus as both low-budget and easy-to-use as possible. At some points compromises had to be made in order to a) stay in a reasonable budget or b) make it easy to assemble and use.*
 
 All of the components can be bought online on Amazon, eBay, Banggood, Mouser etc. - prices might vary.
 
@@ -91,8 +91,6 @@ For getting started head over to the specific readmes on [Software](Software/REA
 This project is released under the MIT License - you are free to do whatever you want with it - as long as you don't plan on subdueing humanity or any other crazy stuff, we're fine with it.
 
 You are not legally bound to it, but it would be nice if you credit this project when creating something with it - and please **tell us**! We would love to see what you create!
-
-If you should encounter any bugs or problems with the current build, open an issue here on Github.
 
 ## ❤️ Thank you 
 

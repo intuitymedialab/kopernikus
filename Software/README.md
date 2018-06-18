@@ -45,8 +45,6 @@ Getting the Arduino ready should be pretty straight-forward:
 
 The UpBoard is a x86 based single board computer, so we are able to run a fully-fledged Ubuntu distro on it and thus write code in all kinds of environments.
 
-For camera input we 
-
 ### Setup
 
 Getting the UpBoard set up properly might be a bit finicky or at least different when you come from a background mainly working with Raspberry Pis. Some packages and kernel versions are not compatible with the latest Ubuntu so better stick with [Ubuntu 16.04 (Xenial Xerus)](http://releases.ubuntu.com/16.04/).
@@ -58,7 +56,7 @@ Also make sure you [install the kernel updates](https://wiki.up-community.org/Ub
 
 #### Ubuntu Software Packages
 
-These packages can be install via APT using the following commands:
+These packages can be installed via *apt* using the following commands:
 
 ```
 sudo apt-get install "package name"
@@ -76,5 +74,5 @@ The main software responsible for decision making is written in Clojure. Head ov
 
 #### Camera
 
-The camera supports ROS as the main interface. Therefore we use ROS to connect the camera to Clojure. It would be possible also to run the serial connection to the base over ROS, but since ROS is such a pain, it seems better to use it only when necessary.
+The camera supports ROS as the main interface. Therefore we use ROS to connect the camera to Clojure. It would be possible also to run the serial connection to the base over ROS, but since ROS can be such a pain, it seems better to use it only when necessary.
 
