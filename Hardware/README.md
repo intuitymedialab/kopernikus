@@ -35,7 +35,7 @@ Using acrylic glass instead of PVC shouldn't be a problem either, we just had it
 
 ## 🔌 Connect all the things!
 
-Refer to [this](components/basic_electronic_connections.pdf) plan on how to connect everything. Fitting all wires into the plan would probably have been to big and unnecessary - it's actually quite simple.
+Refer to [this](components/basic_electronic_connections.pdf?raw=true) plan on how to connect everything. Fitting all wires into the plan would probably have been to big and unnecessary - it's actually quite simple.
 
 The pin mappings on the Arduino are:
 
