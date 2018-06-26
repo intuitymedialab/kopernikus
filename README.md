@@ -13,7 +13,7 @@ For a high level overview of the project, visit [kopernikus.io](http://www.koper
 
 ## 🔬 What this is about
 
-Kopernikus is a small robot, that will cost less than EUR1000 to build. If you put it together, you will have something like a remote control car, equipped with a quad core computer, a stereo camera, audio input and output and a video projector.
+Kopernikus is a small robot, that will cost less than EUR 1000 to build. If you put it together, you will have something like a remote control car, equipped with a quad core computer, a stereo camera, audio input and output and a video projector.
 You'll be able to use it as a basic setup and build your personal project on top.
 
 ## 📓 A little backstory
