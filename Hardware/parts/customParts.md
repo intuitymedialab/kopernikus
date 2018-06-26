@@ -37,6 +37,5 @@ We uploaded both the NURBS and mesh-based models of Kopernikus, so you will be a
 
 | parts count | name | filename |
 | --- | --- | --- |
-| 1 | base plate | xxx.stl |
-| 1 | controller plate | xxx.stl |
-| 2 | projector cover | xxx.stl |
+| 1 | base plate | groundplate.stl |
+| 1 | controller plate | controllerplate.stl |

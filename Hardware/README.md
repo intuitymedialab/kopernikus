@@ -55,7 +55,7 @@ TX               - >    9
 
 Basically everything runs off a notebook powerbank that has all the charging and protection features already built in - so no working on risky LiPo battery packs is required here.
 
-The battery pack can deliver up to 50W peak which is more than enough for our use. One issue we had from time to time though was that the battery pack has a protection built in that shuts off the power when too little current is drawn. This totally makes sense when using it for its intended purpose (which we obviously don't).
+The battery pack can deliver up to 50W peak which is more than enough for our use. One issue we had from time to time though was that the battery pack has a protection built in that shuts off the power when too little current is drawn. This totally makes sense when using it for its intended purpose (which we don't).
 
 #### Adding a power resistor
 At some point this problem somehow vanished, but one possible solution would be adding a **power resistor** that draws a fixed base current and thus circumvents the automatic shutdown. It also increases the power draw in general, but it's probably the simplest solution.
@@ -64,12 +64,12 @@ We still need to check what value would be a good match though. Open to suggesti
 
 #### Basic power scheme
 
-We created to independent circuits so you can control which devices are powered to save some battery life.
+We created two independent circuits so you can control which devices are powered to save some battery life.
 
 1) Arduino, RC receiver, motors, servo
 2) UpBoard and its peripherals (like the 3D camera, microphones etc.)
 
-Ready-made devices like the speaker, the projector etc. get their juice directly from the USB and all have a power switch themselves.
+Ready-made devices like the speaker, the projector etc. get their juice directly via USB and all have a power switch themselves.
 
 
 #### Powering the UpBoard
@@ -78,8 +78,6 @@ The UpBoard uses a simple DC jack, but **behold**!
 Usually these are used for 9V and 12V which **you should never at any time** feed into the UpBoard. 
 
 **! The UpBoard takes 5V MAXIMUM !**
-
-*I managed to fry one of our boards by accidentally giving it 12V from our lab bench power supply...oops, not good, believe me.*
 
 Eventhough the powerbank has a 5V output, it can't deliver enough current for the UpBoard to boot properly. Thus we used a cheap step down buck converter, capable of delivering up to 12 A (not the small LM2596 ones), set to 5V.
 
@@ -91,3 +89,4 @@ This is pretty straight-forward: The motor drivers need 12V to work, so you can 
 
 #### Powering the Arduino (and peripherals)
 
+The Arduino gets its power from the MD25 Board's integrated voltage regulator. It's powerful enough to power the Arduino and the RC receiver, but peripherals like the Servo need their own supply (in form of a 5V 1A Step-Down Module)
