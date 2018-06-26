@@ -8,7 +8,7 @@ Developed at Intuity Media Lab GmbH in Stuttgart, Germany.
 
 ## 🤔 Wait, what?
 
-For a high level overview of the project, visit www.kopernikus.bot.
+For a high level overview of the project, visit [kopernikus.io](www.kopernikus.io).
 
 
 ## 🔬 What this is about
@@ -91,9 +91,3 @@ For getting started head over to the specific readmes on [Software](Software/REA
 This project is released under the MIT License - you are free to do whatever you want with it - as long as you don't plan on subdueing humanity or any other crazy stuff, we're fine with it.
 
 You are not legally bound to it, but it would be nice if you credit this project when creating something with it - and please **tell us**! We would love to see what you create!
-
-## ❤️ Thank you 
-
-Just some acknowledgements to some people that (unknowingly) helped make this possible:
-
-[Ryan Boland](https://ryanboland.com/blog) who had a great [tutorial](https://ryanboland.com/blog/reading-rc-receiver-values/) online on how to use interrupts to read PWM-signals (insted of using the **blocking** pulseIn()-method).
