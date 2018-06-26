@@ -8,7 +8,7 @@ Developed at Intuity Media Lab GmbH in Stuttgart, Germany.
 
 ## 🤔 Wait, what?
 
-For a high level overview of the project, visit [kopernikus.io](www.kopernikus.io).
+For a high level overview of the project, visit [kopernikus.io](http://www.kopernikus.io).
 
 
 ## 🔬 What this is about
